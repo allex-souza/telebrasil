@@ -1,0 +1,506 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,800;1,500&display=swap');
+  
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins';
+    /*border: .1px black solid;*/
+}
+
+header{
+    width: 100%;
+    display: block;
+    position: relative;
+    border-bottom: solid 8px #008636;
+}
+
+.faixaNavTopo{
+    border: none !important;
+    background-color: #008636;
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+}
+
+.faixaNavTopo ol{
+    border: none !important;
+    width: 1055px;
+    margin: 0 auto;
+    padding: 5px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.faixaNavTopo li:nth-child(02){
+    width: 20%;
+}
+.faixaNavTopo ol li {
+    border: none !important;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+}
+.faixaNavTopo ol li img{
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+}
+.faixaNavTopo ol li a{
+    color:#B7EECD;
+    font-size: .8rem;
+    text-decoration: none;
+}
+.navMenuPrincipal{
+    background-color: #fff;
+    width: 100%;
+}
+.navMenuPrincipal nav {
+    width: 1055px;
+    margin: 0 auto;
+    display: flex;
+    padding: 1.5% 0;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+}
+.navMenuPrincipal nav a{
+    width:186px;
+}
+
+.navMenuPrincipal nav ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /* align-content: center; */
+    align-items: center;
+    justify-content: space-between;
+    width: 290px;
+}
+.navMenuPrincipal nav ul li{
+    text-decoration: none;
+    color: transparent;
+}
+
+.navMenuPrincipal nav ul li a{
+    color: #2c3e32;
+    text-decoration: none;
+    font-weight: 550;
+}
+
+.removeMarginR{
+    margin-right: 0;
+}
+
+.navMenuPrincipal nav ul .active{
+    border-bottom: 2px solid #22AD65;
+    border-width: 3px;
+}
+
+
+/*CAPA ------------------------------------*/
+/*CAPA ------------------------------------*/
+/*CAPA ------------------------------------*/
+/*CAPA ------------------------------------*/
+/*CAPA ------------------------------------*/
+
+
+.capa{
+    background-image: url(cabaSite.png);
+    display: block;
+    background-size: 100%;
+    position: relative;
+    padding: 80px 0;
+    width: 100%;
+
+}
+.capa span{
+    display: block;
+    position: absolute;
+    width: 1055px;
+    left: 50%;
+    transform: translate(-50%,0);
+    height: 100%;
+    top: 0;
+}
+.capa span .shapeOne{
+     display: block;
+     position: absolute;
+     right: 0;
+     top: 20px;
+}
+.capa span .shapeTwo{
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+}
+.alingContCapa{
+    position: relative;
+    display: block;
+    width: 90%;
+    color: #F8FFFB;
+    margin: 50px auto;
+    text-align: center;
+}
+.alingContCapa h1{
+    font-size: 3.2rem;
+    line-height: 4.8rem;
+}
+.alingContCapa h2{
+    font-size: 1.6rem;
+    font-weight: 90;
+    /* line-height: 4rem; */
+    padding: 0 0 18px 0;
+}
+.buttCapa{
+    background-color: #F8FFFB;
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+    padding: 15px 60px;
+    border-radius: 50px;
+    font-weight: 600;
+    color: #0A2514;
+    font-size: 1.5rem;
+    border: none;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+.buttCapa img{
+    width: 1.5rem;
+    margin-left: 20px;
+}
+
+
+/*SECTION SERVIÇOS --------------------------------*/
+/*SECTION SERVIÇOS --------------------------------*/
+/*SECTION SERVIÇOS --------------------------------*/
+/*SECTION SERVIÇOS --------------------------------*/
+
+
+main{
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+.sectionsGerais{
+    margin: 0 auto;
+    padding: 60px 0;
+    display: block;
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+}
+.sectionsGerais:nth-child(2n + 1){
+    background-color: #F4F5FF;
+}
+
+.cxCardsJobs{
+    width: 100%;
+}
+.cxCardsJobs .cxAlingSection h2{
+    font-size: 2.0rem;
+    margin: 0 auto 30px auto;
+    font-weight: 600;
+    text-align: center;
+    line-height: 2.375rem;
+    color: #383A39;
+}
+
+.cxCardsJobs .cxAlingSection .cards{
+    display: flex;
+    position: relative;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.cards{
+    display: flex;
+    position: relative;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.buttGeral{
+    background-color: #008636;
+    position: relative;
+    display: flex;
+    padding: 15px 60px;
+    border-radius: 50px;
+    font-weight: 600;
+    color: #F4F5FF;
+    font-size: 1.5rem;
+    border: none;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 40px auto 0px auto;
+}
+.buttGeral img{
+    width: 1.5rem;
+    margin-left: 20px;
+}
+
+.card{
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0px 1px 4px rgba(9, 9, 9, 0.2);
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 333px;
+}
+.card h3{
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-align: center;
+    padding: 5px 6px 3px 6px;
+}
+.card p{
+    font-size: 1rem;
+    font-weight: 100;
+    text-align: center;
+    padding: 0px 6px 15px 0px;
+}
+.card .img-card{
+    width: 100%;
+}
+
+.img-star-job{
+    margin: 0 auto;
+    position: relative;
+    display: block;
+    padding: 0px 6px 30px 6px;
+}
+.cxAlingSection{
+    position: relative;
+    display: block;
+    width: calc(1055px);
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+
+
+/*SECTION MARCAS --------------------------------*/
+
+.cardsMarcas{
+    width: 100%;
+    background-color: black;
+    background-image: url(shape-marcas.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.cardsMarcas h2{
+    font-size: 2.0rem;
+    color: #fff !important;
+    margin: 0 auto 30px auto;
+    font-weight: 600;
+    text-align: center;
+    line-height: 2.5rem;
+    color: #383A39;
+}
+
+
+.cards-marca{
+    width: 100%;
+    position: relative;
+    display: flex;
+    background-color: #fff;
+    padding: 40px 0;
+    border-radius: 1rem;
+}
+
+.buttMarcas{
+    margin: 40px auto 0px auto;
+}
+
+.marcasimgs{
+    position: relative;
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+}
+.removeBorder{
+    border-top: 2px solid rebeccapurple;
+}
+
+
+.cardsAvaliacao h2{
+    font-size: 2.0rem;
+    margin: 0 auto 30px auto;
+    font-weight: 600;
+    text-align: center;
+    line-height: 2.375rem;
+    color: #383A39;
+}
+
+.imgCitatAvall{
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    padding: 35px 0 15px 0;
+}
+
+.cxAlingContCard{
+    padding: 10px 20px 15px 20px;
+}
+
+.pCardsAvall{
+    padding: 5px 0 0px 0 !important;
+}
+
+.cxAlingContentAbout{
+    position: relative;
+    display:flex;
+}
+
+.titulo{
+    font-size: 2.0rem;
+    font-weight: 600;
+    margin: 30px auto 5px auto;
+    line-height: 2.375rem;
+    color: #383A39;
+}
+
+.paragrafo{
+    font-size: 1.4rem;
+    font-weight: 200;
+    padding: 15px 0px 3px 0px;
+    color: #39443E;
+}
+
+.cxAlingfoot{
+    border-bottom: rgb(81, 81, 81) 2px solid;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px 0;
+}
+
+
+
+.navSection{
+    display: block;
+}
+.navSection h2{
+    font-size: 1.5rem;
+    margin: 0 auto 10px auto;
+    font-weight: 600;
+    color: #fff;
+}
+
+ol li{
+    list-style: none;
+    color: #fff;
+    font-weight: 100;
+}
+.alingtimes{
+    display: block;
+}
+.alingtimes li{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.descondenado li{
+list-style-image: none;
+  background-image: url(iconSelecor.svg);
+  background-repeat: no-repeat; 
+  background-position: left center;
+  padding-left: 20px;
+}
+
+.navegue02 li{
+
+    list-style-image: none;
+    background-image: url(iconSelecor.svg);
+    background-repeat: no-repeat; 
+    background-position: left center;
+    padding-left: 20px;
+}
+.localMap{
+    list-style-image: none;
+    background-image: url(localMap.svg);
+    background-repeat: no-repeat; 
+    background-position: left center;
+    padding-left: 30px;
+}
+.whatsapp2{
+    list-style-image: none;
+    background-image: url(whatsIcon.svg);
+    background-repeat: no-repeat; 
+    background-position: left center;
+    padding-left: 30px;
+
+}
+
+.igIcon{
+    list-style-image: none;
+    background-image: url(iGCont.svg);
+    background-repeat: no-repeat; 
+    background-position: left center;
+    padding-left: 30px;
+    display: block;
+
+}
+
+.luladrao{
+    padding: 0 20px;
+}
+
+.alingDiash{
+    display:flex;
+}
+
+.endSection{
+    color: #fff;
+    display: flex;
+    width: 1055px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.endSection h3{
+    padding: 50px 0 !important;
+    font-weight: 100;
+}
+
+footer{
+    background-color: #383A39;
+}
+
+.addBorder{
+    border-top: 3px solid #B1B1B1;
+}
+
+.boldSobre{
+    font-weight: 500;
+}
