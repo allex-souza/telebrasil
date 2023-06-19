@@ -14,7 +14,7 @@ header{
     width: 100%;
     display: block;
     position: relative;
-    border-bottom: solid 8px #008636;
+    border-bottom: solid 4px #008636;
 }
 
 .faixaNavTopo{
@@ -164,6 +164,8 @@ header{
 }
 .buttCapa{
     background-color: #F8FFFB;
+    background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(216,231,221,1) 100%);
     position: relative;
     display: flex;
     margin: 0 auto;
@@ -239,6 +241,8 @@ main{
 
 .buttGeral{
     background-color: #008636;
+    background: rgb(0,134,54);
+    background: linear-gradient(180deg, rgba(0,134,54,1) 0%, rgba(0,109,44,1) 100%);
     position: relative;
     display: flex;
     padding: 15px 60px;
@@ -252,6 +256,8 @@ main{
     justify-content: space-around;
     flex-direction: row;
     margin: 40px auto 0px auto;
+    /*box-shadow: 0px 0px 5px 0px #4a4a4a38;*/
+    box-shadow: 0 7px 15px rgb(0 0 0 / 13%);
 }
 .buttGeral img{
     width: 1.5rem;
@@ -261,7 +267,8 @@ main{
 .card{
     background-color: #fff;
     border-radius: 1rem;
-    box-shadow: 0px 1px 4px rgba(9, 9, 9, 0.2);
+    /*box-shadow: 0px 1px 4px rgba(9, 9, 9, 0.2);*/
+    box-shadow: 0 7px 15px rgb(0 0 0 / 13%);
     position: relative;
     box-sizing: border-box;
     overflow: hidden;
@@ -303,7 +310,7 @@ main{
 
 .cardsMarcas{
     width: 100%;
-    background-color: black;
+    background-color: #080808;
     background-image: url(shape-marcas.svg);
     background-position: top;
     background-repeat: no-repeat;
@@ -312,7 +319,7 @@ main{
 
 .cardsMarcas h2{
     font-size: 2.0rem;
-    color: #fff !important;
+    color: #f2f7f2 !important;
     margin: 0 auto 30px auto;
     font-weight: 600;
     text-align: center;
@@ -332,6 +339,7 @@ main{
 
 .buttMarcas{
     margin: 40px auto 0px auto;
+        box-shadow: 0px 0px 5px 0px #4a4a4a38;
 }
 
 .marcasimgs{
@@ -406,37 +414,39 @@ main{
     display: block;
 }
 .navSection h2{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     margin: 0 auto 10px auto;
-    font-weight: 600;
-    color: #fff;
+    font-weight: 500;
+    color: #f2f7f2;
 }
 
 ol li{
     list-style: none;
-    color: #fff;
+    color: #e4e4ee;
     font-weight: 100;
 }
+
 .alingtimes{
     display: block;
 }
-.alingtimes li{
 
+.alingtimes li{
+    font-size: 1rem;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-content: center;
     justify-content: space-between;
     align-items: center;
-
-
 }
+
 .descondenado li{
 list-style-image: none;
   background-image: url(iconSelecor.svg);
   background-repeat: no-repeat; 
   background-position: left center;
   padding-left: 20px;
+  font-size: 1rem;
 }
 
 .navegue02 li{
@@ -446,13 +456,16 @@ list-style-image: none;
     background-repeat: no-repeat; 
     background-position: left center;
     padding-left: 20px;
+    font-size: 1rem;
 }
+
 .localMap{
     list-style-image: none;
     background-image: url(localMap.svg);
     background-repeat: no-repeat; 
     background-position: left center;
     padding-left: 30px;
+    font-size: 1rem;
 }
 .whatsapp2{
     list-style-image: none;
@@ -460,7 +473,7 @@ list-style-image: none;
     background-repeat: no-repeat; 
     background-position: left center;
     padding-left: 30px;
-
+    font-size: 1rem;
 }
 
 .igIcon{
@@ -470,8 +483,16 @@ list-style-image: none;
     background-position: left center;
     padding-left: 30px;
     display: block;
-
+    font-size: 1rem;
 }
+
+.posIconTop{
+    width: 600px !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end !important;
+}
+
 
 .luladrao{
     padding: 0 20px;
@@ -482,19 +503,20 @@ list-style-image: none;
 }
 
 .endSection{
-    color: #fff;
+    color: #e4e4ee;
     display: flex;
     width: 1055px;
     justify-content: space-between;
     margin: 0 auto;
 }
 .endSection h3{
-    padding: 50px 0 !important;
+    padding: 25px 0 !important;
     font-weight: 100;
+    font-size: 1rem;
 }
 
 footer{
-    background-color: #383A39;
+    background-color: #181818;
 }
 
 .addBorder{
@@ -503,4 +525,8 @@ footer{
 
 .boldSobre{
     font-weight: 500;
+}
+
+.trxt{
+    color: #eef5f1;
 }
