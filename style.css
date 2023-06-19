@@ -549,6 +549,15 @@ footer{
         display: none;
         height: 10px;
     }
+    .navMenuPrincipal{
+        position: fixed;
+        z-index: 1;
+    }
+    .compenss{
+        display: block !important;
+        position: relative;
+        height: 52px;
+    }
    
     .navMenuPrincipal nav{
         background-color: #fff;
