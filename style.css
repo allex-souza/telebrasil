@@ -677,6 +677,150 @@ footer{
         margin: 0 auto;
         justify-content: center;
         align-content: flex-start;
-        align-items: center;
+        align-items: center
+    }
+
+
+    .capa span {
+        display: none;
+    }
+
+    .capa {
+        background-image: url(cabaSite.png);
+        display: block;
+        background-size: 200%;
+        background-repeat: no-repeat;
+        background-position-x:-200px;
+        position: relative;
+        padding:10px 0;
+        width: 100%;
+    }
+
+    .alingContCapa h1 {
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+        margin-bottom: 5px;
+    }
+
+    .alingContCapa h2 {
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+        font-weight: 0;
+    }
+    .buttCapa, .buttGeral{
+        font-size: 1rem !important;
+        padding: 10px 35px !important;
+    }
+    .buttCapa, .buttGeral{
+        margin: 0 auto;
+    }
+ 
+    .cxCardsJobs .cxAlingSection h2 {
+        font-size: 1.8rem;
+        margin: 0 auto 20px auto;
+        font-weight: 600;
+        text-align: center;
+        line-height: 2.5rem;
+        color: #383A39;
+    }
+
+    .sectionsGerais {
+        margin: 0 auto;
+        padding: 38px 0;
+        display: block;
+        width: 100%;
+        position: relative;
+        background-color: #fff;
+    }
+
+    .card{
+        margin-bottom: 38px;
+    }
+
+    .cardsMarcas {
+        width: 100%;
+        background-color: #080808;
+        background-image: url(shape-marcas.svg);
+        background-size: 250% !important;
+        background-position-x: -33
+        28px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .cardsMarcas h2 {
+        font-size: 1.4rem;
+        font-weight: 400;
+        color: #f2f7f2 !important;
+        margin: 0 auto 30px auto;
+        font-weight: 600;
+        text-align: center;
+        line-height: 1.85rem;
+        color: #383A39;
+    }
+    .cards-marca {
+        display: none;
+    }
+    .cardsAvaliacao h2{
+        font-size: 1.8rem;
+        margin: 0 auto 20px auto;
+        font-weight: 600;
+        text-align: center;
+        line-height: 2.5rem;
+        color: #383A39;
+    }
+    .shape-logo-icon{
+        width: 240px;
+        position: relative;
+        display: block;
+        left: 50%;
+        transform: translate(-50%,0);
+    }
+    .titulo {
+        font-size: 1.8rem;
+        margin: 20px auto 0px auto;
+        font-weight: 600;
+        text-align: center;
+        line-height: 2rem;
+        color: #383A39;
+    }
+    .paragrafo {
+        font-size: 1rem;
+        font-weight: 100;
+        margin: 5px auto;
+        text-align: center;
+        padding: 0px 6px 15px 0px;
+    }
+    .trx0202{
+        width: 70%;
+        margin: 0 auto 30px auto;
+
+    }
+
+    .cxAlingfoot {
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-items: flex-start;
+        padding: 50px 0 0 0;
+    }
+    .cardNavFooter{
+        margin-bottom: 30px;
+    }
+
+    .endSection {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        text-align: center !important;
+    }
+    .endSection h3{
+        text-align: center;
+        font-size: .8rem;
+        width: 100%;
+    }
+    .endSection h3:nth-child(1) {
+        display: none;
     }
 }
