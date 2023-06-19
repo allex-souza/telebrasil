@@ -545,6 +545,10 @@ footer{
 
 
 @media only screen and (max-width: 600px){
+.active{
+    border: none !important;
+}
+
     .faixaNavTopo ol{
         display: none;
         height: 10px;
@@ -842,5 +846,8 @@ footer{
     }
     .cxAlingSection {
         width: 80%;
+    }
+    .localMap{
+        font-size: .9rem;
     }
 }
