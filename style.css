@@ -192,6 +192,12 @@ background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgb(234, 239, 236) 1
 /*SECTION SERVIÇOS --------------------------------*/
 /*SECTION SERVIÇOS --------------------------------*/
 
+.cxAlingSection .buttMarcas {
+    margin: 40px auto 0px auto;
+    box-shadow: 0px 0px 5px 0px #4a4a4a38;
+    font-size: .9rem !important;
+}
+
 
 main{
     position: relative;
