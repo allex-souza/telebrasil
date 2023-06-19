@@ -77,7 +77,7 @@ header{
     width:186px;
 }
 
-.navMenuPrincipal nav ul{
+.styleOSOS{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -467,6 +467,7 @@ list-style-image: none;
     background-position: left center;
     padding-left: 30px;
     font-size: 1rem;
+    cursor: pointer;
 }
 .whatsapp2{
     list-style-image: none;
@@ -475,6 +476,7 @@ list-style-image: none;
     background-position: left center;
     padding-left: 30px;
     font-size: 1rem;
+    cursor: pointer;
 }
 
 .igIcon{
@@ -485,6 +487,7 @@ list-style-image: none;
     padding-left: 30px;
     display: block;
     font-size: 1rem;
+    cursor: pointer;
 }
 
 .posIconTop{
@@ -493,7 +496,9 @@ list-style-image: none;
     flex-direction: row;
     justify-content: flex-end !important;
 }
-
+.navegue02 li{
+    cursor: pointer;
+}
 
 .luladrao{
     padding: 0 20px;
@@ -530,4 +535,148 @@ footer{
 
 .trxt{
     color: #eef5f1;
+}
+
+
+@media only screen and (max-width: 600px){
+    .faixaNavTopo ol{
+        display: none;
+        height: 10px;
+    }
+   
+    .navMenuPrincipal nav{
+        background-color: #fff;
+        width: 100%;
+        display: block;
+    }
+
+    .navMenuPrincipal nav ul li{
+        background-color: #ffffff;
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.081);
+        padding: 2px 10px;
+        border-radius: 5px;
+        margin: 20px auto;
+    }
+    .logo{
+        position: relative;
+        display: flex;
+        align-items: center !important;
+        left: 20px;
+    }
+    .logo img{
+        width: 180px;
+    }
+    .capa span{
+        width: 100%;
+    }
+
+/* MENUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU */
+
+
+    .hamburger-menu {
+        display: flex !important;
+        align-items: center !important;
+        width: 50%;
+        position: absolute;
+        z-index: 1;
+        justify-content: end;
+        top: 0;
+        right: 20px;
+        align-items: center;
+        height: 78px;
+        
+      }
+      
+      .hamburger-menu label {
+        cursor: pointer !important;
+        padding: 10px !important;
+      }
+      
+      .hamburger-menu label span {
+        display: block !important;
+        width: 50px !important;
+        height: 8px !important;
+        background-color: #000 !important;
+        margin-bottom: 5px !important;
+        transition: transform 0.3s ease-in-out !important;
+      }
+      
+
+      /*
+      .menuAberto label span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px) !important;
+      }
+      
+      .menuAberto label span:nth-child(2) {
+        opacity: 0 !important;
+      }
+      
+      .menuAberto label span:nth-child(3) {
+        transform: rotate(-45deg) translate(5px, -5px) !important;
+      }
+      */
+   
+      
+      .menu{
+        display: flex !important;
+      }
+      .styleOSOS{
+        position: absolute;
+        background-color: #eaeaea;
+        display:none ;
+        z-index: 1;
+        top:75px;
+        width: 100%;
+        justify-content:space-evenly;
+    }
+
+
+
+
+      .cxAlingfoot {
+        border-bottom: rgb(81, 81, 81) 2px solid;
+        display: flex;
+        flex-direction: row;
+        align-content: flex-start;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 50px 0;
+    }
+
+      .cxAlingContentAbout {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .endSection {
+        color: #e4e4ee;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+
+
+    .cxCardsJobs .cxAlingSection .cards {
+        display: flex;
+        position: relative;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: flex-start;
+        align-content: flex-start;
+    }
+
+    .cards {
+        display: flex;
+        position: relative;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        justify-content: center;
+        align-content: flex-start;
+        align-items: center;
+    }
 }

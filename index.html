@@ -44,7 +44,24 @@
                 <a href="#" class="logo">
                     <img src="Logo.svg" alt="logotipo">
                 </a>
-                <ul>
+
+
+                <div id="addClass" onclick="gogogo()" class="hamburger-menu menuAberto">
+                    <label id="addClass" for="hamburger-toggle">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </label>
+                  </div>
+                  <script>
+                    function gogogo() {
+                        targetElement = document.getElementById('addClassAqui');
+                    targetElement.classList.toggle('menu');
+                    };
+                  </script>
+
+
+                <ul id="addClassAqui" style="display: none;" class="styleOSOS">
                   <li><a href="#" class="active">Home</a></li>
                   <li><a href="#">Serviços</a></li>
                   <li><a class="sobreCx removeMarginR" href="#">Sobre</a></li>
