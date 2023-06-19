@@ -10,6 +10,7 @@
     /*border: .1px black solid;*/
 }
 
+
 header{
     width: 100%;
     display: block;
@@ -531,6 +532,11 @@ footer{
     background-color: #181818;
 }
 
+
+footer a{
+    text-decoration: none !important;
+    color: #e4e4ee;
+}
 .addBorder{
     border-top: 3px solid #B1B1B1;
 }

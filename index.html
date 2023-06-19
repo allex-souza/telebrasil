@@ -3,10 +3,10 @@
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <link rel="shortcut icon" target="_blank" href="#" type="image/x-icon">
     <title>Telebrasil Celulares e Informática</title>
     <script src="myjs.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" target="_blank" href="style.css">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="title" content="#"/>
     <meta http-equiv="content-type" content="text/html" />
@@ -27,21 +27,21 @@
             <ol>
                 <li>
                     <img src="VectorWhatsappButGeral.svg" alt="">
-                    <a href="#"><i>(62) 99293-6607</i></a>
+                    <a target="_blank" href="https://wa.me/556293178806"><i>(62) 99293-6607</i></a>
                 </li>
                 <li class="posIconTop">
                     <img src="IG - SVG.svg" alt="">
-                    <a href="#" ><i>@telebrasil_celulares</i></a>
+                    <a target="_blank" href="https://www.instagram.com/telebrasil_celulares/" ><i>@telebrasil_celulares</i></a>
                 </li>                
                 <li>
                     <img src="localMap.svg" alt="">
-                    <a href="#"><i>Goiânia - GO, 74.230-110</i></a>
+                    <a target="_blank" href="https://www.google.com/maps/dir/-16.7160113,-49.2675505/telebrasil+celulares/@-16.7158705,-49.2701575,17z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x935ef0df506b7d95:0xa3ad85a545f4a406!2m2!1d-49.2683871!2d-16.7157298?entry=ttu"><i>Goiânia - GO, 74.230-110</i></a>
                 </li>
             </ol>
         </nav>
         <nav class="navMenuPrincipal">
             <nav>
-                <a href="#" class="logo">
+                <a  href="#" class="logo">
                     <img src="Logo.svg" alt="logotipo">
                 </a>
 
@@ -54,6 +54,11 @@
                     </label>
                   </div>
                   <script>
+                    function openWpp(){
+                        open("https://wa.me/556293178806")
+                    }
+
+
                     function gogogo() {
                         targetElement = document.getElementById('addClassAqui');
                     targetElement.classList.toggle('menu');
@@ -62,9 +67,9 @@
 
 
                 <ul id="addClassAqui" class="styleOSOS">
-                  <li><a href="#" class="active">Home</a></li>
-                  <li><a href="#">Serviços</a></li>
-                  <li><a class="sobreCx removeMarginR" href="#">Sobre</a></li>
+                  <li><a  href="#" class="active">Home</a></li>
+                  <li><a  href="#jobs">Serviços</a></li>
+                  <li><a class="sobreCx removeMarginR"  href="#about">Sobre</a></li>
                 </ul>
               </nav>
         </nav>
@@ -86,7 +91,7 @@
             <div class="alingContCapa">
                 <h1>Assistência Técnica Especializada</h1>
                 <h2>em Celulares, Computadores e Notebooks.</h2>
-                <button class="buttCapa">Fazer orçamento agora <img src="VectorWhatsapp.svg" alt=""></button>
+                <button onclick="openWpp()"  class="buttCapa">Fazer orçamento agora <img src="VectorWhatsapp.svg" alt=""></button>
             </div>
             
           </section>
@@ -94,7 +99,7 @@
 
 
       <main>
-        <section class="cxCardsJobs sectionsGerais">
+        <section id="jobs" class="cxCardsJobs sectionsGerais">
 
             <div class="cxAlingSection">
                 <h2>Principais Serviços</h2>
@@ -126,7 +131,7 @@
                 </div>
             </div>
 
-            <button class="buttGeral">Fazer orçamento agora <img src="VectorWhatsappButGeral.svg" alt="">
+            <button onclick="openWpp()" class="buttGeral">Fazer orçamento agora <img src="VectorWhatsappButGeral.svg" alt="">
             </button>
           </section>
 
@@ -138,7 +143,7 @@
                     <img class="marcasimgs" src="marcas.png" alt="">
             </div>
             
-            <button class="buttCapa buttMarcas">Comprar pelo Whatsapp<img src="VectorWhatsapp.svg" alt="">
+            <button onclick="openWpp()" class="buttCapa buttMarcas">Comprar pelo Whatsapp<img src="VectorWhatsapp.svg" alt="">
             </button>
 
           </section>
@@ -178,13 +183,13 @@
                     </div>
                 </div>
                 
-                <button class="buttGeral">Ver no google Maps <img src="VectorGoogle.svg" alt=""></button>
+                <button onclick="openWpp()" class="buttGeral">Ver no google Maps <img src="VectorGoogle.svg" alt=""></button>
 
             </div>
         </section>
 
         
-        <section class="sobre-section sectionsGerais">
+        <section id="about" class="sobre-section sectionsGerais">
             
             <div class="cxAlingSection">
             
@@ -204,7 +209,7 @@
             </div>
             </div>
             
-            <button class="buttGeral">
+            <button onclick="openWpp()" class="buttGeral">
                 Fazer orçamento agora
                 <img src="VectorWhatsappButGeral.svg" alt="">
             </btton>
@@ -243,9 +248,9 @@
                 <div class="cardNavFooter">
                     <h2>Contato e Localização</h2>
                     <ol>
-                        <li class="localMap">R. T-64, 1004 - 08 - St.Bueno, Goiânia</li>
-                        <li class="whatsapp2">(62) 99293-6607</li>
-                        <li class="igIcon">@telebrasil_celulares</li>
+                        <li class="localMap"><a target="_blank" href="https://www.google.com/maps/dir/-16.7160113,-49.2675505/telebrasil+celulares/@-16.7158705,-49.2701575,17z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x935ef0df506b7d95:0xa3ad85a545f4a406!2m2!1d-49.2683871!2d-16.7157298?entry=ttu">R. T-64, 1004 - 08 - St.Bueno, Goiânia</a></li>
+                        <li class="whatsapp2"><a target="_blank" href="https://wa.me/556293178806">(62) 99293-6607</a></li>
+                        <li class="igIcon"><a target="_blank" href="https://www.instagram.com/telebrasil_celulares/">@telebrasil_celulares</a></li>
                     </ol>
                 </div>
             </div>
@@ -253,9 +258,9 @@
                 <div class="cardNavFooter">
                     <h2>Navegue</h2>
                     <ol class="navegue02">
-                        <li>Home</li>
-                        <li>Serviços</li>
-                        <li>Sobre</li>
+                        <li><a  href="#">Home</a></li>
+                        <li><a  href="#jobs">Serviços</a></li>
+                        <li><a  href="#about">Sobre</a></li>
                     </ol>
                 </div>
             </div>
