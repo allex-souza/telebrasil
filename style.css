@@ -434,6 +434,7 @@ ol li{
     list-style: none;
     color: #e4e4ee;
     font-weight: 100;
+    margin-bottom: 5px;
 }
 
 .alingtimes{
@@ -448,6 +449,7 @@ ol li{
     align-content: center;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 5px;
 }
 
 .descondenado li{
