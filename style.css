@@ -10,6 +10,11 @@
     /*border: .1px black solid;*/
 }
 
+#navMenuCompenss{
+    display: none;
+    animation: fadeIn  0.5s ease-out !important;
+}
+
 header{
     width: 100%;
     display: block;
@@ -640,9 +645,6 @@ footer a{
         margin-bottom: 5px !important;
         transition: transform 0.3s ease-in-out !important;
       }
-      #addClass{
-      }
-      
       
       .menuAberto label span:nth-child(1) {
         transform: rotate(45deg) translate(7.5px, 5px) !important;
@@ -660,18 +662,35 @@ footer a{
       
       .menu{
         display: flex !important;
+        z-index: -1 !important;
+        
       }
+      
       .styleOSOS{
         position: absolute;
         background-color: #eaeaea;
-        display:none ;
+        display:none;
         z-index: 1;
         top:52px;
         width: 100%;
         justify-content:space-evenly;
+        animation: fadeIn  0.5s ease-out !important;
+        
     }
-
-
+     .navMenuPrincipal02{
+        display: block !important;
+        position: relative;
+        background-color: #eaeaea;
+        width: 100%;
+        height: 50px;
+        z-index: 0;
+        top: 0;
+        animation: fadeIn  0.5s ease-out !important;
+    }
+@keyframes fadeIn {
+        from { top: 0px; } /* Define a opacidade inicial como 0 */
+        to { top: 50px; } /* Define a opacidade final como 1 */
+      }
 
 
       .cxAlingfoot {
