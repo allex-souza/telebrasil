@@ -35,7 +35,7 @@
                 </li>                
                 <li>
                     <img src="localMap.svg" alt="">
-                    <a target="_blank" href="https://www.google.com/maps/dir/-16.7160113,-49.2675505/telebrasil+celulares/@-16.7158705,-49.2701575,17z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x935ef0df506b7d95:0xa3ad85a545f4a406!2m2!1d-49.2683871!2d-16.7157298?entry=ttu"><i>Goiânia - GO, 74.230-110</i></a>
+                    <a target="_blank" href="https://www.google.com.br/maps/place/Telebrasil+Celulares+e+Inform%C3%A1tica/@-16.7157246,-49.270962,17z/data=!3m1!4b1!4m6!3m5!1s0x935ef0df506b7d95:0xa3ad85a545f4a406!8m2!3d-16.7157298!4d-49.2683871!16s%2Fg%2F1pzrh3_j0?entry=ttu"><i>Goiânia - GO, 74.230-110</i></a>
                 </li>
             </ol>
         </nav>
@@ -63,6 +63,11 @@
                         targetElement = document.getElementById('addClassAqui');
                     targetElement.classList.toggle('menu');
                     };
+
+                    function openLocal(){
+                        open("https://www.google.com.br/maps/place/Telebrasil+Celulares+e+Inform%C3%A1tica/@-16.7157246,-49.270962,17z/data=!3m1!4b1!4m6!3m5!1s0x935ef0df506b7d95:0xa3ad85a545f4a406!8m2!3d-16.7157298!4d-49.2683871!16s%2Fg%2F1pzrh3_j0?entry=ttu")
+                    };
+
                   </script>
 
 
@@ -183,7 +188,7 @@
                     </div>
                 </div>
                 
-                <button onclick="openWpp()" class="buttGeral">Ver no google Maps <img src="VectorGoogle.svg" alt=""></button>
+                <button onclick="openLocal()" class="buttGeral">Ver no google Maps <img src="VectorGoogle.svg" alt=""></button>
 
             </div>
         </section>
