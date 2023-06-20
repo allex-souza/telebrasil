@@ -46,7 +46,7 @@
                 </a>
 
 
-                <div id="addClass" onclick="gogogo()" class="hamburger-menu menuAberto">
+                <div id="addClass" onclick="gogogo()" class="hamburger-menu ">
                     <label id="addClass" for="hamburger-toggle">
                       <span></span>
                       <span></span>
@@ -62,6 +62,9 @@
                     function gogogo() {
                         targetElement = document.getElementById('addClassAqui');
                     targetElement.classList.toggle('menu');
+
+                        targetElement = document.getElementById('addClass');
+                    targetElement.classList.toggle('menuAberto');
                     };
 
                     function openLocal(){
